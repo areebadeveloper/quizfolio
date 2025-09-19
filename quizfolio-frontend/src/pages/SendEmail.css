@@ -1,0 +1,162 @@
+.email-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.email-header h1 {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 24px;
+  color: var(--ion-color-dark);
+}
+
+.page-icon {
+  margin-right: 10px;
+  font-size: 24px;
+  color: var(--ion-color-primary);
+}
+
+.selection-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selection-header h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 18px;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-item, .class-filter-item {
+  --background: var(--ion-color-light);
+  --border-radius: 8px;
+}
+
+.class-chips {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.chip-label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: var(--ion-color-medium);
+}
+
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.select-all-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+
+.user-list {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid var(--ion-color-light-shade);
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.user-item {
+  --padding-start: 8px;
+  --inner-padding-end: 8px;
+}
+
+.user-details {
+  display: flex;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.loading-container, .no-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--ion-color-medium);
+}
+
+.message-input {
+  margin-top: 20px;
+}
+
+.send-button-container {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .filter-container {
+    flex-direction: row;
+  }
+  
+  .search-item {
+    flex: 2;
+  }
+  
+  .class-filter-item {
+    flex: 1;
+  }
+}
+
+ion-item {
+  --padding-start: 0;
+}
+
+ion-label {
+  margin-bottom: 8px !important;
+  font-weight: 500 !important;
+  color: var(--ion-color-dark) !important;
+}
+
+ion-item.item-has-focus ion-label {
+  color: var(--ion-color-primary) !important;
+}
+
+ion-input, ion-textarea {
+  --padding-start: 12px !important;
+  --padding-end: 12px !important;
+  --padding-top: 12px !important;
+  --padding-bottom: 12px !important;
+  --background: var(--ion-color-light) !important;
+  border-radius: 8px !important;
+  margin-top: 4px !important;
+}
+
+.filter-container ion-item {
+  margin-bottom: 10px;
+}
+
+.class-filter-item ion-label {
+  margin-bottom: 8px !important;
+}
+
+.class-filter-item ion-select {
+  margin-top: 4px;
+  --padding-start: 12px;
+  --padding-end: 12px;
+  --padding-top: 12px;
+  --padding-bottom: 12px;
+  --background: var(--ion-color-light);
+  border-radius: 8px;
+} 

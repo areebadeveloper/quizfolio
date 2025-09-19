@@ -1,0 +1,41 @@
+{
+    "name": "quizfolio",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "@capacitor-community/http": "^1.4.1",
+        "@capacitor/android": "^7.2.0",
+        "@capacitor/cli": "^7.2.0",
+        "@capacitor/core": "^7.2.0",
+        "@ionic/pwa-elements": "^3.3.0",
+        "@ionic/react": "^8.2.5",
+        "@ionic/react-router": "^8.2.5",
+        "axios": "^1.7.7",
+        "bootstrap": "^5.3.3",
+        "chart.js": "^4.4.6",
+        "crypto": "^1.0.1",
+        "moment": "^2.30.1",
+        "nodemailer": "^6.9.16",
+        "react-bootstrap": "^2.10.5",
+        "react-chartjs-2": "^5.2.0",
+        "react-confetti": "^6.1.0",
+        "react-icons": "^5.2.1",
+        "react-ionicons": "^4.2.1",
+        "react-router-dom": "^5.3.4",
+        "react-toastify": "^11.0.5"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "@types/react-router-dom": "^5.3.3",
+        "@vitejs/plugin-legacy": "^5.4.1",
+        "@vitejs/plugin-react": "^4.3.1",
+        "typescript": "^5.5.3",
+        "vite": "5.3.4"
+    },
+    "scripts": {
+        "build": "ionic build",
+        "start": "ionic serve",
+        "android": "ionic cap open android"
+    }
+}

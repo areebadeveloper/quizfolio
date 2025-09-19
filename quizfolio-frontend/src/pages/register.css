@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.register-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.register-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-image {
+  width: 180px;
+  height: auto;
+  margin: 0 auto 15px;
+}
+
+.register-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--ion-color-primary);
+  margin: 10px 0 5px;
+}
+
+.register-subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin: 0 0 10px;
+}
+
+.progress-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 5px;
+}
+
+.progress-step {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  color: #666;
+  border-radius: 50%;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.progress-step.active {
+  background: var(--theme-gradient);
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.progress-line {
+  flex: 1;
+  height: 3px;
+  background-color: #ddd;
+  margin: 0 10px;
+}
+
+.step-label {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #666;
+}
+
+.register-card-container {
+  background-color: var(--ion-card-background);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.register-step {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  background-color: var(--theme-medium-bg);
+  border-radius: 12px;
+  padding: 5px 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) inset;
+}
+
+.input-icon-wrapper {
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  font-size: 1.5rem;
+  color: var(--ion-color-primary);
+}
+
+.styled-input {
+  --background: transparent;
+  --padding-start: 0;
+  --padding-top: 12px;
+  --padding-bottom: 12px;
+  --placeholder-color: #888;
+  --placeholder-opacity: 0.8;
+  font-size: 1.1rem;
+}
+
+.step-button, .register-button {
+  --background: var(--theme-gradient);
+  --border-radius: 12px;
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-top: 8px;
+  height: 50px;
+  font-size: 1.1rem;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.back-step-button {
+  --border-radius: 12px;
+  height: 50px;
+  font-size: 1.1rem;
+  text-transform: none;
+  font-weight: 500;
+  --border-color: var(--ion-color-primary);
+  --color: var(--ion-color-primary);
+}
+
+/* Account type selector styles */
+.account-type-selector {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.account-type-option {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  border-radius: 12px;
+  border: 2px solid #ddd;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.account-type-option.selected {
+  border-color: var(--ion-color-primary);
+  background-color: var(--theme-light-bg);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.account-type-icon {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  color: var(--ion-color-primary);
+}
+
+.account-type-label {
+  font-weight: 600;
+  color: #444;
+}
+
+.class-select-item {
+  --background: var(--theme-medium-bg);
+  --border-radius: 12px;
+  --padding: 5px 15px;
+  margin-bottom: 20px;
+}
+
+.class-select {
+  width: 100%;
+  max-width: 100%;
+  --padding-start: 15px;
+}
+
+/* Confirmation styles */
+.confirmation-box {
+  background-color: var(--theme-light-bg);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.confirmation-box h3 {
+  text-align: center;
+  color: var(--ion-color-primary);
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.confirmation-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.confirmation-item ion-icon {
+  margin-right: 15px;
+  font-size: 1.4rem;
+  color: var(--ion-color-primary);
+}
+
+.confirmation-label {
+  font-weight: 600;
+  color: #555;
+  width: 120px;
+}
+
+.confirmation-value {
+  flex: 1;
+  color: #333;
+}
+
+.terms-agreement {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.terms-agreement a {
+  color: var(--ion-color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-message {
+  margin: 15px 0;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.success {
+  background-color: rgba(40, 167, 69, 0.1);
+  color: #28a745;
+}
+
+.error {
+  background-color: rgba(220, 53, 69, 0.1);
+  color: #dc3545;
+}
+
+.login-prompt {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-link {
+  --color: var(--ion-color-primary);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.buttoncls{
+    color: white;
+}
+
+
+  .btn-success {
+    background-color: #28a745;
+    font-weight: bold;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    font-weight: bold;
+  }
+  
+
+  .borderregister{
+    border: #3880ff;
+  }
+
+  .input-item {
+    --highlight-color-focused: #3880ff;
+    --background: white;
+    --border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field {
+    padding: 10px;
+  }
+  
+  .form-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    padding: 20px;
+  }
+  
+/* Add these responsive adjustments to the existing CSS */
+
+/* Responsive adjustments */
+@media (max-width: 360px) {
+  .register-title {
+    font-size: 1.6rem;
+  }
+  
+  .register-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .register-image {
+    width: 160px;
+  }
+  
+  .progress-step {
+    width: 30px;
+    height: 30px;
+    font-size: 0.9rem;
+  }
+  
+  .account-type-option {
+    padding: 15px 5px;
+  }
+  
+  .account-type-icon {
+    margin-bottom: 5px;
+    font-size: 1.7rem;
+  }
+  
+  .account-type-label {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .register-container {
+    max-width: 550px;
+  }
+  
+  .register-image {
+    width: 200px;
+  }
+  
+  .progress-step {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .step-button, .register-button {
+    height: 52px;
+  }
+  
+  .account-type-option {
+    padding: 25px 15px;
+  }
+}
+  

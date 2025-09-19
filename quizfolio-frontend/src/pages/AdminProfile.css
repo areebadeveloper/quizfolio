@@ -1,0 +1,23 @@
+.admin-profile {
+    padding: 16px;
+  }
+  
+  .admin-profile h2 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  .admin-profile ion-icon {
+    font-size: 32px;
+    margin-right: 8px;
+  }
+  
+  .admin-profile .mt-4 {
+    margin-top: 16px;
+  }
+  
+  .admin-profile .mt-2 {
+    margin-top: 8px;
+  }
+  

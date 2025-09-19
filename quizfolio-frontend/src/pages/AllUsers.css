@@ -1,0 +1,46 @@
+/* styling the edit form */
+.edit-form {
+    padding: 20px;
+    background-color: #fffcfc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .edit-form h3 {
+    margin-bottom: 15px;
+  }
+
+  .edit-form IonInput {
+    background-color: #fdfdfd72;
+    border-radius: 8px;
+  }
+  
+
+  /* Target the IonTitle element */
+ion-title {
+    font-weight: bold;  /* Make the text bold */
+    color: black;       /* Set the text color to black */
+    text-align: center; /* Center the text */
+    width: 100%;        /* Ensure the title takes the full width of its container */
+  }
+  
+
+
+  /* Custom CSS for IonIcons and buttons */
+.content-container {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .content-container ion-button {
+    margin-bottom: 10px;
+  }
+  
+  ion-button {
+    --padding-start: 10px;
+    --padding-end: 10px;
+  }
+  
+  ion-icon {
+    margin-right: 8px; /* Spacing between icon and text */
+  }
+  

@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://areebadb:Areeba1221@cluster0.stamly5.mongodb.net/authDB?retryWrites=true&w=majority&appName=Cluster0",
+    "jwtSecret": "secret-2024"
+}
+  

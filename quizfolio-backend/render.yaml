@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: quizfolio-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /api/send-email/status
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: EMAIL_USER
+        fromDatabase: false
+        value: geekasad@gmail.com
+      - key: MONGODB_URI
+        fromDatabase: false
+        # Add your MongoDB connection string here
+      - key: SENDGRID_API_KEY
+        fromDatabase: false
+        # Add your SendGrid API key here
+    domains:
+      - quizfolio-api.onrender.com 

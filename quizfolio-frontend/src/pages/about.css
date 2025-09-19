@@ -1,0 +1,151 @@
+.container {
+    padding: 16px;
+  }
+  
+  IonCard {
+    margin-top: 20px;
+  }
+  
+  .team-member {
+    padding: 10px;
+  }
+  
+  .member-info {
+    font-size: 16px;
+  }
+  
+  .member-name {
+    font-weight: bold;
+  }
+  
+  .member-role {
+    font-style: italic;
+  }
+  
+  .about-logo-container {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .about-logo {
+    width: 120px;
+    height: 120px;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
+  }
+  
+  .about-card {
+    margin: 20px 10px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  .about-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #4e54c8;
+    margin-bottom: 5px;
+  }
+  
+  .about-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  .features-card {
+    margin: 20px 10px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  .features-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4e54c8;
+  }
+  
+  .feature-box {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgba(78, 84, 200, 0.05);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .feature-box:hover {
+    background-color: rgba(78, 84, 200, 0.1);
+    transform: translateY(-3px);
+  }
+  
+  .feature-icon {
+    font-size: 2rem;
+    color: #4e54c8;
+    margin-right: 15px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-content h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .feature-content p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .team-card {
+    margin: 20px 10px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  .team-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4e54c8;
+  }
+  
+  .contact-card {
+    margin: 20px 10px 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  .contact-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4e54c8;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .contact-icon {
+    font-size: 1.5rem;
+    color: #4e54c8;
+    margin-right: 15px;
+  }
+  
+  .contact-text {
+    font-size: 1rem;
+    color: #444;
+  }
+  

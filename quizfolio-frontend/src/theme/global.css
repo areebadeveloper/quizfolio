@@ -1,0 +1,98 @@
+/* Add these styles to your global CSS file */
+ion-input, ion-textarea, ion-select {
+  --background: #f5f5f5 !important;
+  --color: #333 !important;
+  --placeholder-color: #777 !important;
+  --border-color: #ddd !important;
+  border-radius: 8px !important;
+}
+
+ion-item {
+  --background: transparent !important;
+  --color: #333 !important;
+}
+
+.input-container {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* About page styling */
+.about-page-content {
+  background-color: #000 !important;
+}
+
+.about-page-content p, 
+.about-page-content h1, 
+.about-page-content h2, 
+.about-page-content h3, 
+.about-page-content h4, 
+.about-page-content h5,
+.about-page-content span,
+.about-page-content .member-name,
+.about-page-content .member-role,
+.about-page-content .contact-text {
+  color: #fff !important;
+}
+
+/* Fixed About page text color issue */
+p, h1, h2, h3, h4, h5, h6, span, div {
+  color: #333 !important;  /* Ensure text is dark and visible */
+}
+
+.about-text, .member-name, .member-role, .contact-text {
+  color: #333 !important;
+}
+
+/* Dropdown menu text styling */
+ion-select, 
+ion-select-option,
+.select-text,
+ion-select::part(text),
+ion-select::part(placeholder), 
+.select-placeholder,
+.select-interface-option,
+.alert-radio-label,
+.alert-checkbox-label,
+.action-sheet-button {
+  color: #000 !important;
+  --color: #000 !important;
+}
+
+/* Style for Ionic dropdown interfaces */
+.alert-wrapper,
+.action-sheet-group,
+.action-sheet-container,
+.select-interface-option {
+  --color: #000 !important;
+  color: #000 !important;
+}
+
+/* Style for the checkmark on selected options */
+.alert-radio-inner, 
+.alert-checkbox-inner {
+  border-color: #000 !important;
+}
+
+/* Style for the select dropdown icon */
+ion-select::part(icon) {
+  color: #000 !important;
+  opacity: 1;
+}
+
+/* Fix for select popup interface text */
+.select-interface-option,
+.alert-radio-label,
+ion-action-sheet button,
+ion-select-popover ion-item,
+ion-item.select-interface-option {
+  color: #000 !important;
+  --color: #000 !important;
+}
+
+/* For native selects that might be rendered */
+select, 
+select option {
+  color: #000 !important;
+} 

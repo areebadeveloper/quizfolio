@@ -1,0 +1,7 @@
+{
+  "name": "Quiz Folio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

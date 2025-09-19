@@ -1,0 +1,121 @@
+/* Base Theme Variables */
+:root {
+  --font-family: 'Poppins', sans-serif;
+}
+
+/* Primary Theme (Blue) */
+[data-theme="primary"] {
+  --ion-color-primary: #4e54c8;
+  --ion-color-primary-rgb: 78, 84, 200;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #454ab0;
+  --ion-color-primary-tint: #6069ce;
+  
+  --ion-color-secondary: #8f94fb;
+  --ion-color-secondary-rgb: 143, 148, 251;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #7e82dd;
+  --ion-color-secondary-tint: #9a9ffb;
+  
+  /* Background colors */
+  --ion-background-color: #f9f9fc;
+  --ion-background-color-rgb: 249, 249, 252;
+  --ion-card-background: #ffffff;
+  
+  --theme-gradient: linear-gradient(135deg, #4e54c8, #8f94fb);
+  --theme-light-bg: rgba(78, 84, 200, 0.1);
+  --theme-medium-bg: rgba(78, 84, 200, 0.05);
+  --theme-card-bg: #ffffff;
+}
+
+/* Emerald Theme (Green) */
+[data-theme="emerald"] {
+  --ion-color-primary: #10b981;
+  --ion-color-primary-rgb: 16, 185, 129;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #0ea371;
+  --ion-color-primary-tint: #28c08e;
+  
+  --ion-color-secondary: #34d399;
+  --ion-color-secondary-rgb: 52, 211, 153;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #2eba87;
+  --ion-color-secondary-tint: #48d7a3;
+  
+  /* Background colors */
+  --ion-background-color: #ecfdf5;
+  --ion-background-color-rgb: 236, 253, 245;
+  --ion-card-background: #ffffff;
+  
+  --theme-gradient: linear-gradient(135deg, #10b981, #34d399);
+  --theme-light-bg: rgba(16, 185, 129, 0.1);
+  --theme-medium-bg: rgba(16, 185, 129, 0.05);
+  --theme-card-bg: #ffffff;
+}
+
+/* Sunset Theme (Orange) */
+[data-theme="sunset"] {
+  --ion-color-primary: #f97316;
+  --ion-color-primary-rgb: 249, 115, 22;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #da6513;
+  --ion-color-primary-tint: #fa812d;
+  
+  --ion-color-secondary: #fb923c;
+  --ion-color-secondary-rgb: 251, 146, 60;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #dd8135;
+  --ion-color-secondary-tint: #fb9d50;
+  
+  /* Background colors */
+  --ion-background-color: #fff7ed;
+  --ion-background-color-rgb: 255, 247, 237;
+  --ion-card-background: #ffffff;
+  
+  --theme-gradient: linear-gradient(135deg, #f97316, #fb923c);
+  --theme-light-bg: rgba(249, 115, 22, 0.1);
+  --theme-medium-bg: rgba(249, 115, 22, 0.05);
+  --theme-card-bg: #ffffff;
+}
+
+/* Theme-responsive elements */
+.header-toolbar {
+  background: var(--theme-gradient);
+}
+
+.auth-button, .card-button, .edit-profile-button {
+  --background: var(--theme-gradient);
+}
+
+.feature-icon, .auth-input-icon, .profile-icon {
+  color: var(--ion-color-primary);
+  background-color: var(--theme-light-bg);
+}
+
+.footer-tabbutton.ion-selected {
+  color: var(--ion-color-primary);
+}
+
+.footer-tabbutton.ion-selected::after {
+  background: var(--theme-gradient);
+}
+
+.welcome, .auth-title, .profile-card-title, .about-title, .features-title {
+  color: var(--ion-color-primary);
+}
+
+.profile-avatar {
+  border-color: var(--ion-color-primary);
+  background-color: var(--theme-light-bg);
+}
+
+/* Card backgrounds */
+ion-card {
+  --background: var(--theme-card-bg);
+} 
